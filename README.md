@@ -18,7 +18,7 @@ Construir e avaliar modelos capazes de prever a **tendência de fechamento do IB
 - **T+2** (dois dias à frente)
 - **T+5** (cinco dias à frente)
 
-Foram exploradas diferentes janelas de treino (de 2 a 25 anos), múltiplas abordagens de modelagem, validações cruzadas temporais, otimizações de hiperparâmetros, estratégias de ensemble e ajustes finos de thresholds para tomada de decisão mais sensível.
+Foram exploradas diferentes janelas de treino (de 2 a 30 anos), múltiplas abordagens de modelagem, validações cruzadas temporais, otimizações de hiperparâmetros, estratégias de ensemble e ajustes finos de thresholds para tomada de decisão mais sensível.
 
 ---
 
@@ -110,7 +110,7 @@ joblib
 - **RandomizedSearchCV** para otimização de hiperparâmetros
 - **Ajuste de thresholds (cutoff)** para maximizar o F1-score
 - **Target multiclasse** com variação mínima de ±0.5%
-- **Testes com janelas móveis** (2, 5, 10, 15, 20 e 25 anos de histórico)
+- **Testes com janelas móveis** (2 a 30 anos de histórico)
 - **Ensembles e Stacking** com comparações detalhadas
 
 ---
